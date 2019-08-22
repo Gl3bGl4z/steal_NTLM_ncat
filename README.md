@@ -3,7 +3,7 @@
 Start a CMD window and type:
 
 ncat -l 8080 --keep-open < hello.html
-***No need to allow on firewall prompt***
+***[No need to allow on firewall prompt]***
 
 Start a Powershell window and type:
 
